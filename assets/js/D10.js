@@ -97,7 +97,7 @@ function whoIsBigger() {
 */
 
 function splitMe() {
-let = "I love coding";
+    let = "";
 
 
 }
@@ -107,11 +107,28 @@ let = "I love coding";
   Se il valore booleano è true la funzione deve ritornare la stringa senza il primo carattere, altrimenti la deve ritornare senza l'ultimo.
 */
 
+function deleteOne() {
+    const name = ('Romina', 'true');
+    if (true) {
+        return ('omina');
+    } else {
+        return ('Romin');
+    }
+}
+
+console.log(deleteOne);
+
 /* ESERCIZIO 5
   Crea una funzione chiamata "onlyLetters" che riceve una stringa come parametro e la ritorna eliminando tutte le cifre numeriche.
 
   Es.: onlyLetters("I have 4 dogs") => ritorna "I have dogs"
 */
+
+function onlyLetters() {
+    const animals= ("I have 2 cats");
+    
+
+}
 
 /* ESERCIZIO 6
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
@@ -151,13 +168,32 @@ let = "I love coding";
   in esso la proprietà chiamata come la stringa passata come secondo parametro.
 */
 
+
+const deleteProp = {
+    name: 'Romina',
+    surname: 'Timis',
+    age: 25,
+}
+
+deleteProp(surname);
+console.log(deleteProp);
+
+
 /* ESERCIZIO 12
   Scrivi una funzione chiamata "newestMovie" che trova il film più recente nell'array "movies" fornito.
 */
 
+const newestMovie = Year;
+
+
+
 /* ESERCIZIO 13
   Scrivi una funzione chiamata countMovies che ritorna il numero di film contenuti nell'array "movies" fornito.
 */
+
+const countMovies = {
+
+}
 
 /* ESERCIZIO 14
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
