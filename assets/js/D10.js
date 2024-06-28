@@ -81,7 +81,7 @@ function whoIsBigger() {
     const numeri = [20, 5];
     a = 20;
     b = 5;
-    
+
     if (a > b) {
         return a;
     } else {
@@ -95,6 +95,12 @@ function whoIsBigger() {
 
   Es.: splitMe("I love coding") => ritorna ["I", "Love", "Coding"]
 */
+
+function splitMe() {
+let = "I love coding";
+
+
+}
 
 /* ESERCIZIO 4
   Crea una funzione chiamata "deleteOne" che riceve una stringa e un booleano come parametri.
